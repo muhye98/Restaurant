@@ -57,17 +57,13 @@ Food.prototype.rander = function () {
     food.appendChild(price);
 
     food.style.border = "2px solid black"
-
     food.style.display = "flex"
     food.style.flexDirection = "column"
     food.style.background = "#FFC26F"
     food.style.marginTop = "20px"
     food.style.marginLeft = "400px"
     food.style.marginRight = "400px"
-    id.style.padding = "15px"
-    foodName.style.padding = "15px"
-    Typefood.style.padding = "15px"
-    price.style.padding = "15px"
+
 
     id.style.border = "2px solid black"
     foodName.style.border = "2px solid black"
